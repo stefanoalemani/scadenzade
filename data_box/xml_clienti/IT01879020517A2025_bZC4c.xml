@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01879020517</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>29</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>ISHDUAE</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06855330152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>06855330152</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>RAMAC UTENSILI S.A.S.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>via della Marzorata</Indirizzo>
+        <NumeroCivico>32</NumeroCivico>
+        <CAP>20009</CAP>
+        <Comune>Vittuone</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>1122666</NumeroREA>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0290110878</Telefono>
+        <Email>info@ramacutensili.com</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>11871190960</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>11871190960</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>FAMA' COMPRESSORI SRL</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA MATTEI, 7</Indirizzo>
+        <CAP>20010</CAP>
+        <Comune>MESERO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD24</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-03-31</Data>
+        <Numero>FPR 29/25</Numero>
+        <ImportoTotaleDocumento>509.02</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+      <DatiDDT>
+        <NumeroDDT>75</NumeroDDT>
+        <DataDDT>2025-03-05</DataDDT>
+        <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+      </DatiDDT>
+      <DatiDDT>
+        <NumeroDDT>102</NumeroDDT>
+        <DataDDT>2025-03-24</DataDDT>
+        <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>7</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>8</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>9</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>11</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>12</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>13</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>14</RiferimentoNumeroLinea>
+      </DatiDDT>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>PIGNONE SEMPLICE ISO 06B 3/8" Z.16</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>6.00</PrezzoUnitario>
+        <PrezzoTotale>12.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>PIGNONE SEMPLICE ISO 06B 3/8" Z.38</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>9.00</PrezzoUnitario>
+        <PrezzoTotale>18.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>PUNZONI TEMPERATI SVASATI D.5x100 mm</Descrizione>
+        <Quantita>25.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>3.90</PrezzoUnitario>
+        <ScontoMaggiorazione>
+          <Tipo>SC</Tipo>
+          <Percentuale>25.00</Percentuale>
+        </ScontoMaggiorazione>
+        <PrezzoTotale>73.125</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>LISTA POLIZENE NERO PE1000 40x40x1000 mm</Descrizione>
+        <Quantita>1.60</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>12.00</PrezzoUnitario>
+        <PrezzoTotale>19.20</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.20x28x1 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.35</PrezzoUnitario>
+        <PrezzoTotale>10.50</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.20x28x0,5 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.34</PrezzoUnitario>
+        <PrezzoTotale>10.20</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>7</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.20x28x0,3 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.31</PrezzoUnitario>
+        <PrezzoTotale>9.30</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>8</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.20x28x0,2 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.29</PrezzoUnitario>
+        <PrezzoTotale>8.70</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>9</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.20x28x0,1 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.29</PrezzoUnitario>
+        <PrezzoTotale>8.70</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>10</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.18x25x1 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.42</PrezzoUnitario>
+        <PrezzoTotale>12.60</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>11</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.18x25x0,5 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.29</PrezzoUnitario>
+        <PrezzoTotale>8.70</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>12</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.18x25x0,3 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.28</PrezzoUnitario>
+        <PrezzoTotale>8.40</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>13</NumeroLinea>
+        <Descrizione>RONDELLE DI SPESSORAMENTO DIN 988 D.18x25x0,1 mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.26</PrezzoUnitario>
+        <PrezzoTotale>7.80</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>14</NumeroLinea>
+        <Descrizione>PERNO FOLLE SKF KRE 62 PP</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>105.00</PrezzoUnitario>
+        <PrezzoTotale>210.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>417.23</ImponibileImporto>
+        <Imposta>91.79</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP12</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-05-31</DataScadenzaPagamento>
+        <ImportoPagamento>509.02</ImportoPagamento>
+        <IstitutoFinanziario>INTESA SANPAOLO SPA</IstitutoFinanziario>
+        <IBAN>IT69I0306933190100000011635</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

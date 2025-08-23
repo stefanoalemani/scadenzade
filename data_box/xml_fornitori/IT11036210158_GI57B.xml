@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<a:FatturaElettronica versione="FPR12" xmlns:a="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>11036210158</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>29116</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>KRRH6B9</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>02.34536118</Telefono>
+                <Email>metel@metel.it</Email>
+            </ContattiTrasmittente>
+            <PECDestinatario>ramac@pec.ramacutensili.com</PECDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>04486310966</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>LA TRASMISSIONE SRL</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via Majorana 22</Indirizzo>
+                <CAP>20047</CAP>
+                <Comune>CUSAGO</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+            <Contatti>
+                <Telefono>0290390325</Telefono>
+                <Email>lara@latrasmissionesrl.it</Email>
+            </Contatti>
+            <RiferimentoAmministrazione>Lara</RiferimentoAmministrazione>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>06855330152</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>RAMAC UTENSILI S.A.S.</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA DELLA MARZORATA 32</Indirizzo>
+                <CAP>20009</CAP>
+                <Comune>VITTUONE</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD24</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2025-04-30</Data>
+                <Numero>1667</Numero>
+                <ImportoTotaleDocumento>3214.10</ImportoTotaleDocumento>
+                <Arrotondamento>0.00</Arrotondamento>
+                <Causale>FATTURA / INVOICE - CONTRIBUTO CONAI ASSOLTO</Causale>
+            </DatiGeneraliDocumento>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+                <IdDocumento>tel.</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>22</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>19</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>23</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>2</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+                <IdDocumento>Tel.</IdDocumento>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>9</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+                <IdDocumento>Tel.</IdDocumento>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>2</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>11</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>12</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>8</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+                <IdDocumento>Tel.</IdDocumento>
+                <NumItem>2</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>26</RiferimentoNumeroLinea>
+                <IdDocumento>Tel.</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>13</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>14</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>15</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>7</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>17</RiferimentoNumeroLinea>
+                <IdDocumento>tel.</IdDocumento>
+                <NumItem>2</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>24</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>25</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>2</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>27</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>16</RiferimentoNumeroLinea>
+                <IdDocumento>tel.</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>28</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>2</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>29</RiferimentoNumeroLinea>
+                <IdDocumento>mail</IdDocumento>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+                <IdDocumento>tel.</IdDocumento>
+                <NumItem>2</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>18</RiferimentoNumeroLinea>
+                <IdDocumento>tel.</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>21</RiferimentoNumeroLinea>
+                <IdDocumento>Banco</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>7</RiferimentoNumeroLinea>
+                <IdDocumento>Tel.</IdDocumento>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+                <IdDocumento>Tel.</IdDocumento>
+                <NumItem>1</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiDDT>
+                <NumeroDDT>3077</NumeroDDT>
+                <DataDDT>2025-04-03</DataDDT>
+                <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3143</NumeroDDT>
+                <DataDDT>2025-04-04</DataDDT>
+                <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>7</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3181</NumeroDDT>
+                <DataDDT>2025-04-07</DataDDT>
+                <RiferimentoNumeroLinea>8</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>9</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>11</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>12</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>13</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>14</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>15</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3201</NumeroDDT>
+                <DataDDT>2025-04-07</DataDDT>
+                <RiferimentoNumeroLinea>16</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>17</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3287</NumeroDDT>
+                <DataDDT>2025-04-09</DataDDT>
+                <RiferimentoNumeroLinea>18</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3421</NumeroDDT>
+                <DataDDT>2025-04-11</DataDDT>
+                <RiferimentoNumeroLinea>19</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3576</NumeroDDT>
+                <DataDDT>2025-04-17</DataDDT>
+                <RiferimentoNumeroLinea>20</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>21</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>22</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>23</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3744</NumeroDDT>
+                <DataDDT>2025-04-23</DataDDT>
+                <RiferimentoNumeroLinea>24</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>25</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>26</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3807</NumeroDDT>
+                <DataDDT>2025-04-28</DataDDT>
+                <RiferimentoNumeroLinea>27</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>28</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>29</RiferimentoNumeroLinea>
+            </DatiDDT>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>140X180X12 A</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ANELLI TENUTA NBR70</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>21.575</PrezzoUnitario>
+                <PrezzoTotale>43.15</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>SI5940/100</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ADESIVI SILICONICI NERO LOCTITE 100ml.</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>11.645</PrezzoUnitario>
+                <PrezzoTotale>23.29</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>YAR214-2F</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI SKF</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>112.55</PrezzoUnitario>
+                <PrezzoTotale>225.10</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>4</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6211DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>10.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>33.792</PrezzoUnitario>
+                <PrezzoTotale>337.92</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>5</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>52208NSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>66.44</PrezzoUnitario>
+                <PrezzoTotale>66.44</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>6</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>60X75X8 AS</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ANELLI TENUTA NBR70</Descrizione>
+                <Quantita>6.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>4.37</PrezzoUnitario>
+                <PrezzoTotale>26.22</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>7</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>UC210RHP</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI RHP-NSK</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>51.43</PrezzoUnitario>
+                <PrezzoTotale>51.43</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>8</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6208DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>10.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>13.246</PrezzoUnitario>
+                <PrezzoTotale>132.46</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>9</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6010DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>10.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>14.87</PrezzoUnitario>
+                <PrezzoTotale>148.70</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>10</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6202DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>4.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>3.6925</PrezzoUnitario>
+                <PrezzoTotale>14.77</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>11</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6203DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>3.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>4.146667</PrezzoUnitario>
+                <PrezzoTotale>12.44</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>12</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6204DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>4.87</PrezzoUnitario>
+                <PrezzoTotale>9.74</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>13</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6302DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>6.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>4.986667</PrezzoUnitario>
+                <PrezzoTotale>29.92</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>14</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6303DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>5.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>5.462</PrezzoUnitario>
+                <PrezzoTotale>27.31</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>15</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6304DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>4.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>6.325</PrezzoUnitario>
+                <PrezzoTotale>25.30</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>16</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>NJ2213ET</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>112.12</PrezzoUnitario>
+                <PrezzoTotale>112.12</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>17</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6308DDUC3NSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>20.35</PrezzoUnitario>
+                <PrezzoTotale>40.70</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>18</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>T7FC055NTN</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NTN</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>106.30</PrezzoUnitario>
+                <PrezzoTotale>212.60</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>19</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>30309J</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>5.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>22.85</PrezzoUnitario>
+                <PrezzoTotale>114.25</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>20</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>OR3X200</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>GUARNIZIONI NBR70</Descrizione>
+                <Quantita>20.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>2.31</PrezzoUnitario>
+                <PrezzoTotale>46.20</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>21</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>T7FC055NTN</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NTN</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>106.30</PrezzoUnitario>
+                <PrezzoTotale>212.60</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>22</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>30215J</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>37.66</PrezzoUnitario>
+                <PrezzoTotale>37.66</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>23</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>31310J</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>64.64</PrezzoUnitario>
+                <PrezzoTotale>64.64</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>24</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>638/50</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>BLOCCANTI ALTA RES. LOCTITE 50ml.</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>42.64</PrezzoUnitario>
+                <PrezzoTotale>42.64</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>25</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>BS2-2209-2RS/VT143</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI SKF</Descrizione>
+                <Quantita>3.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>82.46</PrezzoUnitario>
+                <PrezzoTotale>247.38</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>26</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>6211DDUNSK</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUSCINETTI NSK</Descrizione>
+                <Quantita>5.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>33.792</PrezzoUnitario>
+                <PrezzoTotale>168.96</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>27</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>MB10</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROSETTE DI SICUREZZA</Descrizione>
+                <Quantita>10.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.976</PrezzoUnitario>
+                <PrezzoTotale>9.76</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>28</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>PS15X22X0.3</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>RASAMENTI DIN988 (2000)</Descrizione>
+                <Quantita>10.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.20</PrezzoUnitario>
+                <PrezzoTotale>2.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>29</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>SI5900/300</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ADESIVI SILICONICI LOCTITE cart. 300ml.</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>44.405</PrezzoUnitario>
+                <PrezzoTotale>88.81</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>30</NumeroLinea>
+                <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+                <Descrizione>SPESE TRASPORTO</Descrizione>
+                <PrezzoUnitario>60.00</PrezzoUnitario>
+                <PrezzoTotale>60.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <SpeseAccessorie>60.00</SpeseAccessorie>
+                <ImponibileImporto>2634.51</ImponibileImporto>
+                <Imposta>579.59</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+                <RiferimentoNormativo>IVA 22%</RiferimentoNormativo>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP12</ModalitaPagamento>
+                <DataScadenzaPagamento>2025-07-31</DataScadenzaPagamento>
+                <ImportoPagamento>3214.10</ImportoPagamento>
+                <IBAN>IT95D0103033070000001094267</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+</a:FatturaElettronica>

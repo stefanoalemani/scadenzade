@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01879020517</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>10</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>EH1R83N</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06855330152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>06855330152</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>RAMAC UTENSILI S.A.S.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>via della Marzorata</Indirizzo>
+        <NumeroCivico>32</NumeroCivico>
+        <CAP>20009</CAP>
+        <Comune>Vittuone</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>1122666</NumeroREA>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0290110878</Telefono>
+        <Email>info@ramacutensili.com</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06594700152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>06594700152</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>O.M.S.  SNC</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA RHO N.6</Indirizzo>
+        <CAP>20007</CAP>
+        <Comune>CORNAREDO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD24</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-02-24</Data>
+        <Numero>FPR 10/25</Numero>
+      </DatiGeneraliDocumento>
+      <DatiDDT>
+        <NumeroDDT>54</NumeroDDT>
+        <DataDDT>2025-02-19</DataDDT>
+        <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>7</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>8</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>9</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>11</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>12</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>13</RiferimentoNumeroLinea>
+      </DatiDDT>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>TONDO FORATO BRONZO D.48x102x500mm N.2</Descrizione>
+        <Quantita>60.00</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>15.00</PrezzoUnitario>
+        <PrezzoTotale>900.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>TONDO FORATO BRONZO D.33x71x500mm</Descrizione>
+        <Quantita>30.00</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>15.00</PrezzoUnitario>
+        <PrezzoTotale>450.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>TONDO FORATO BRONZO D.29x61x500mm</Descrizione>
+        <Quantita>24.00</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>15.00</PrezzoUnitario>
+        <PrezzoTotale>360.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>BARRA PIATTA OTTONE 10x25x3000 mm</Descrizione>
+        <Quantita>8.00</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>13.50</PrezzoUnitario>
+        <PrezzoTotale>108.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>BOBINA CARTA CELLULOSA</Descrizione>
+        <Quantita>6.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>12.00</PrezzoUnitario>
+        <PrezzoTotale>72.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>CINGHIE DENTELLATE SPAX 1957</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>85.00</PrezzoUnitario>
+        <ScontoMaggiorazione>
+          <Tipo>SC</Tipo>
+          <Percentuale>60.00</Percentuale>
+        </ScontoMaggiorazione>
+        <PrezzoTotale>68.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>7</NumeroLinea>
+        <Descrizione>CINGHIE TRAPEZOIDALI DENTELLATE XPA1232</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>66.00</PrezzoUnitario>
+        <ScontoMaggiorazione>
+          <Tipo>SC</Tipo>
+          <Percentuale>60.00</Percentuale>
+        </ScontoMaggiorazione>
+        <PrezzoTotale>52.80</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>8</NumeroLinea>
+        <Descrizione>LISTE PTFE 130x2000 mm SP.3 mm</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>190.00</PrezzoUnitario>
+        <PrezzoTotale>190.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>9</NumeroLinea>
+        <Descrizione>RACCORDO NIPLES 3/4"</Descrizione>
+        <Quantita>10.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>4.50</PrezzoUnitario>
+        <PrezzoTotale>45.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>10</NumeroLinea>
+        <Descrizione>AEROGRAFO ASTURO PROFESSIONALE K1L HVLP D.1,5mm</Descrizione>
+        <Quantita>3.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>122.00</PrezzoUnitario>
+        <ScontoMaggiorazione>
+          <Tipo>SC</Tipo>
+          <Percentuale>30.00</Percentuale>
+        </ScontoMaggiorazione>
+        <PrezzoTotale>256.20</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>11</NumeroLinea>
+        <Descrizione>ADESIVO LOCTITE 406 20g PER INCOLLAGGIO GOMME</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>25.25</PrezzoUnitario>
+        <ScontoMaggiorazione>
+          <Tipo>SC</Tipo>
+          <Percentuale>10.00</Percentuale>
+        </ScontoMaggiorazione>
+        <PrezzoTotale>45.45</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>12</NumeroLinea>
+        <Descrizione>CUSCINETTO TIMKEN 64700-64450</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>309.00</PrezzoUnitario>
+        <PrezzoTotale>309.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>13</NumeroLinea>
+        <Descrizione>CUSCINETTO TIMKEN HM218-248/10</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>189.00</PrezzoUnitario>
+        <PrezzoTotale>378.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>3234.45</ImponibileImporto>
+        <Imposta>711.58</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-02-19</DataScadenzaPagamento>
+        <ImportoPagamento>3946.03</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

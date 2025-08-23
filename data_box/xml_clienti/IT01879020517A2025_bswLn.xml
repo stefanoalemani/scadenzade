@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01879020517</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>15</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06855330152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>06855330152</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>RAMAC UTENSILI S.A.S.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>via della Marzorata</Indirizzo>
+        <NumeroCivico>32</NumeroCivico>
+        <CAP>20009</CAP>
+        <Comune>Vittuone</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>1122666</NumeroREA>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0290110878</Telefono>
+        <Email>info@ramacutensili.com</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>12201150153</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>12201150153</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>RACHIELE CARP.METALL. S.N.C.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA GRAN SASSO N.3/5</Indirizzo>
+        <CAP>20010</CAP>
+        <Comune>BAREGGIO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD24</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-02-28</Data>
+        <Numero>FPR 15/25</Numero>
+        <ImportoTotaleDocumento>195.20</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+      <DatiDDT>
+        <NumeroDDT>47</NumeroDDT>
+        <DataDDT>2025-02-12</DataDDT>
+        <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+      </DatiDDT>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>SMERIGLIATRICE METABO D.180</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>60.00</PrezzoUnitario>
+        <PrezzoTotale>60.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>SMERIGLIATRICE HIKOKI D.115</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>55.00</PrezzoUnitario>
+        <PrezzoTotale>55.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>SMERIGLIATRICE FLEX D.125</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>45.00</PrezzoUnitario>
+        <PrezzoTotale>45.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>SMERIGLIATRICE BOSCH D.125 NON RIP.</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.00</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>SMERIGLIATRICE MILWAUKEE D.180 NON RIP.</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.00</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>160.00</ImponibileImporto>
+        <Imposta>35.20</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP12</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-04-30</DataScadenzaPagamento>
+        <ImportoPagamento>195.20</ImportoPagamento>
+        <IstitutoFinanziario>B.CARIGE-C.R.GENOVA IMPERIA</IstitutoFinanziario>
+        <IBAN>IT64S0617520501000000341080</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

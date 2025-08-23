@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.xsl"?>
+<p:FatturaElettronica
+  versione="FPR12"
+  xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+  xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>SM</IdPaese>
+        <IdCodice>03473</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>1/808</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>KRRH6B9</CodiceDestinatario>
+      <PECDestinatario>ramac@pec.ramacutensili.com</PECDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03919030985</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03919030985</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>COLOMBO DISTRIBUZIONE SRL</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA LUIGI ZACCHETTI 7</Indirizzo>
+        <CAP>25027</CAP>
+        <Comune>QUINZANO D'OGLIO</Comune>
+        <Provincia>BS</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>BS</Ufficio>
+        <NumeroREA>573952</NumeroREA>
+        <CapitaleSociale>1000.00</CapitaleSociale>
+        <SocioUnico>SM</SocioUnico>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0261294385  </Telefono>
+        <Email>info@colombodistribuzionesrl.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06855330152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>06855330152</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>RAMAC UTENSILI S.A.S. DI ALEMANI STEFANO</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via della Marzorata,32</Indirizzo>
+        <CAP>20010</CAP>
+        <Comune>VITTUONE</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>SM</IdPaese>
+          <IdCodice>03473</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Passepartout S.p.A</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD24</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-06-30</Data>
+        <Numero>1/808</Numero>
+        <ImportoTotaleDocumento>          52.73</ImportoTotaleDocumento>
+        <Causale>VENDITA</Causale>
+      </DatiGeneraliDocumento>
+      <DatiDDT>
+        <NumeroDDT>1/1645</NumeroDDT>
+        <DataDDT>2025-06-03</DataDDT>
+      </DatiDDT>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>PROPRIETARIO</CodiceTipo>
+          <CodiceValore>AR-160RNMRS20</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>RUOTA D.160X40 PER CARRELLO(X3)
+                                                                                                                                                                        
+</Descrizione>
+        <Quantita>             2.000000</Quantita>
+        <UnitaMisura>nr</UnitaMisura>
+        <PrezzoUnitario>            29.300000</PrezzoUnitario>
+        <ScontoMaggiorazione>
+          <Tipo>SC</Tipo>
+          <Percentuale> 30.00</Percentuale>
+        </ScontoMaggiorazione>
+        <PrezzoTotale>                41.02</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+        <Descrizione>SPESE BANCA</Descrizione>
+        <PrezzoUnitario>             2.200000</PrezzoUnitario>
+        <PrezzoTotale>                 2.20</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>43.22          </ImponibileImporto>
+        <Imposta>9.51           </Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP12</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-09-10</DataScadenzaPagamento>
+        <ImportoPagamento>52.73</ImportoPagamento>
+        <IstitutoFinanziario>INTESA SAN PAOLO</IstitutoFinanziario>
+        <IBAN>IT17B0306932450100000011528</IBAN>
+        <ABI>03069</ABI>
+        <CAB>32450</CAB>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>

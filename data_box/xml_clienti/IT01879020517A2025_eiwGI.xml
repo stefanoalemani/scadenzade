@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01879020517</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>52</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06855330152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>06855330152</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>RAMAC UTENSILI S.A.S.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>via della Marzorata</Indirizzo>
+        <NumeroCivico>32</NumeroCivico>
+        <CAP>20009</CAP>
+        <Comune>Vittuone</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>1122666</NumeroREA>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0290110878</Telefono>
+        <Email>info@ramacutensili.com</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>07557690158</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>07557690158</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>FAST ASSEMBLER S.R.L.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA S.DOMENICO N.14</Indirizzo>
+        <CAP>20008</CAP>
+        <Comune>BAREGGIO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD24</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-06-30</Data>
+        <Numero>FPR 52/25</Numero>
+        <ImportoTotaleDocumento>158.60</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+      <DatiDDT>
+        <NumeroDDT>181</NumeroDDT>
+        <DataDDT>2025-06-12</DataDDT>
+        <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+      </DatiDDT>
+      <DatiDDT>
+        <NumeroDDT>185</NumeroDDT>
+        <DataDDT>2025-06-13</DataDDT>
+        <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+      </DatiDDT>
+      <DatiDDT>
+        <NumeroDDT>187</NumeroDDT>
+        <DataDDT>2025-06-18</DataDDT>
+        <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+        <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+      </DatiDDT>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>ACCONTO ORDINE N.745 DEL 11/06/2025</Descrizione>
+        <Quantita>0.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.00</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>BARRE DELRIN BIANCO MM.25</Descrizione>
+        <Quantita>8.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>11.50</PrezzoUnitario>
+        <PrezzoTotale>92.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>RIF. ORDINE 78/Z DEL 13/06/2025</Descrizione>
+        <Quantita>0.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.00</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>TELA BACHELITE 1250x120 mm SP. 10 mm MARRONE</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>15.00</PrezzoUnitario>
+        <PrezzoTotale>15.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>SALDO ORDINE N.745 DEL 11/06/2025</Descrizione>
+        <Quantita>0.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.00</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>BARRE DELRIN BIANCO MM.25</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>11.50</PrezzoUnitario>
+        <PrezzoTotale>23.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>130.00</ImponibileImporto>
+        <Imposta>28.60</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP12</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-09-30</DataScadenzaPagamento>
+        <ImportoPagamento>158.60</ImportoPagamento>
+        <IstitutoFinanziario>BANCO BPM Spa</IstitutoFinanziario>
+        <IBAN>IT84U0503433811000000005260</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

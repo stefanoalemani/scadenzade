@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="fatturaordinaria_v1.2.1.xsl"?><p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 fatturaordinaria_v1.2.xsd ">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>05006900962</IdCodice></IdTrasmittente>
+      <ProgressivoInvio>00587</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>KRRH6B9</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>10191950152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>10191950152</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>DM UTENSILI Srl</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via SAVONA, 72</Indirizzo>
+        <CAP>20144</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>1355451</NumeroREA>
+        <CapitaleSociale>30600.00</CapitaleSociale>
+        <SocioUnico>SM</SocioUnico>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0248952785</Telefono>
+        <Fax>0248953754</Fax>
+        <Email>dm@dmutensili.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06855330152</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>RAMAC UTENSILI SAS</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA DELLA MARZORATA 32</Indirizzo>
+        <CAP>20009</CAP>
+        <Comune>VITTUONE</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD24</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-05-30</Data>
+        <Numero>FAT00530</Numero>
+        <ImportoTotaleDocumento>213.88</ImportoTotaleDocumento>
+        <Causale>Contributo Conai assolto ove dovuto</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+    <DettaglioLinee>
+      <NumeroLinea>1</NumeroLinea>
+      <Descrizione>RIF. DDT. N. 01063 del 19-05-2025</Descrizione>
+      <PrezzoUnitario>0.00000</PrezzoUnitario>
+      <PrezzoTotale>0.00</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>2</NumeroLinea>
+      <Descrizione>VS. RIF. N. E-MAIL del 16-05-2025</Descrizione>
+      <PrezzoUnitario>0.00000</PrezzoUnitario>
+      <PrezzoTotale>0.00</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>3</NumeroLinea>
+      <Descrizione>RIF. ORD. N. 51568 del 19-05-2025</Descrizione>
+      <PrezzoUnitario>0.00000</PrezzoUnitario>
+      <PrezzoTotale>0.00</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>4</NumeroLinea>
+      <CodiceArticolo>
+        <CodiceTipo>Cod.Art.</CodiceTipo>
+        <CodiceValore>600.22 22760.0044</CodiceValore>
+      </CodiceArticolo>
+      <Descrizione>GRANI 12.9  PUNTALE IN OTTONE M 4x10,5</Descrizione>
+      <Quantita>15.0000</Quantita>
+      <UnitaMisura>PZ</UnitaMisura>
+      <PrezzoUnitario>4.14205</PrezzoUnitario>
+      <PrezzoTotale>62.13</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>5</NumeroLinea>
+      <CodiceArticolo>
+        <CodiceTipo>Cod.Art.</CodiceTipo>
+        <CodiceValore>600.22 22760.0062</CodiceValore>
+      </CodiceArticolo>
+      <Descrizione>GRANI 12.9  PUNTALE IN OTTONE M 6x11,5</Descrizione>
+      <Quantita>15.0000</Quantita>
+      <UnitaMisura>PZ</UnitaMisura>
+      <PrezzoUnitario>3.72385</PrezzoUnitario>
+      <PrezzoTotale>55.86</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>6</NumeroLinea>
+      <CodiceArticolo>
+        <CodiceTipo>Cod.Art.</CodiceTipo>
+        <CodiceValore>600.22 22760.0082</CodiceValore>
+      </CodiceArticolo>
+      <Descrizione>GRANI 12.9  PUNTALE IN OTTONE M 8x12</Descrizione>
+      <Quantita>15.0000</Quantita>
+      <UnitaMisura>PZ</UnitaMisura>
+      <PrezzoUnitario>3.82160</PrezzoUnitario>
+      <PrezzoTotale>57.32</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DatiRiepilogo>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <ImponibileImporto>175.31</ImponibileImporto>
+      <Imposta>38.57</Imposta>
+      <EsigibilitaIVA>I</EsigibilitaIVA>
+    </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP12</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-07-31</DataScadenzaPagamento>
+        <ImportoPagamento>213.88</ImportoPagamento>
+        <ABI>03111</ABI>
+        <CAB>23002</CAB>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>

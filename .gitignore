@@ -1,0 +1,7 @@
+# Esclude le cache Python
+__pycache__/
+*.pyc
+
+# Esclude file temporanei
+*.log
+*.tmp
