@@ -1,0 +1,87 @@
+# scadenzade
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+**scadenzade** è un'applicazione Python pensata per semplificare la gestione delle scadenze delle fatture elettroniche italiane (ADE), sia lato clienti che fornitori. Il progetto si basa su un'architettura modulare e segue il pattern MVC per garantire flessibilità, estendibilità e chiarezza del codice.
+
+---
+
+## Funzionalità principali
+
+- Lettura automatica di fatture XML (clienti e fornitori)
+- Esportazione dei dati in formato CSV, DBF (da implementare), TXT (parzialmente implementata)
+- Interfaccia grafica testuale basata su `urwid`
+- Organizzazione dei dati per annualità e percorso
+- Possibilità di aggiunta manuale delle scadenze
+
+
+---
+
+## Breve panoramica di funzionamento
+
+All'avvio dopo l'installazione saranno visualizzati dati inventati per poter testare il funzionamento.
+Per importare le fatture XML reali utilizzare la funzione "Percorso dati" nella toolbar e selezionare
+il percorso delle fatture fornitori e clienti. Salvare dando conferma e successivamente utilizzare
+la funzione "Elabora fatture" nella toolbar per poter contabilizzare, ovvero creare 2 file CSV 
+(fornitori e clienti) con i soli dati che servono al programma per funzionare. 
+Alla conferma uscire e riavviare scadenzade per visualizzare i nuovi dati inseriti. Tutti i dati 
+precedenti (quindi nel primo avvio quelli di esempio) saranno sovrascritti.
+
+---
+
+## Struttura del progetto
+
+Il progetto è suddiviso in moduli chiari e indipendenti. Per maggiori dettagli, consulta il file [`PROJECT_STRUCTURE.md`](./PROJECT_STRUCTURE.md).
+
+scadenzade/
+├── pyproject.toml
+├── LICENSE
+├── README.md
+├── PROJECT_STRUCTURE.md
+├── requirements.txt
+├── scadenzade.py ← avviatore (richiama src/scadenzade.py)
+├── src/
+│   └── scadenzade/
+│      ├── __init__.py
+│      ├── scadenzade.py  ← contiene la funzione main()
+│      ├── config/           # Configurazioni e costanti
+│      ├── control/          # Controller MVC
+│      ├── data_box/         # Dati elaborati (e XML originali se voluti)
+│      ├── models/           # Logica e gestione dati
+│      └── view/             # Interfaccia utente
+ 
+---
+
+## Requisiti
+
+- Python 3.10+
+- Librerie: `urwid`, `xml.etree`, `csv`, `os`, `datetime` (e altre standard)
+
+---
+
+## Avvio rapido
+
+git clone https://github.com/stefanoalemani/scadenzade.git
+cd scadenzade
+python scadenzade.py
+
+- oppure -
+pip install .
+scadenzade
+
+## Modalità standalone
+
+Alcuni moduli possono essere eseguiti singolarmente per compiti specifici:
+
+models/scadenz.py → Conversione XML → CSV/DBF/TXT
+
+models/add_scad.py → Inserimento scadenze nei file XML
+
+## Link utili
+
+- [Repository GitHub](https://github.com/stefanoalemani/scadenzade)
+- [Documentazione](./PROJECT_STRUCTURE.md)
+
+## License
+
+Questo progetto è distribuito sotto licenza MIT. Vedi il file LICENSE per i dettagli.

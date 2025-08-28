@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12"
+xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 fatturaordinaria_v1.2.xsd ">
+<FatturaElettronicaHeader>
+<DatiTrasmissione>
+<IdTrasmittente>
+<IdPaese>IT</IdPaese>
+<IdCodice>1234567890</IdCodice>
+</IdTrasmittente>
+<ProgressivoInvio>005120981</ProgressivoInvio>
+<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+<CodiceDestinatario>KRRDDB9</CodiceDestinatario>
+<ContattiTrasmittente>
+<Telefono>0331 30</Telefono>
+<Email>info@aaaa.com</Email>
+</ContattiTrasmittente>
+</DatiTrasmissione>
+<CedentePrestatore>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>1234567890</IdCodice>
+</IdFiscaleIVA>
+<Anagrafica>
+<Denominazione>MIV S.R.L.</Denominazione>
+</Anagrafica>
+<RegimeFiscale>RF01</RegimeFiscale>
+</DatiAnagrafici>
+<Sede>
+<Indirizzo>VIA MATTEI 2 </Indirizzo>
+<CAP>30000</CAP>
+<Comune>VERONA</Comune>
+<Provincia>VR</Provincia>
+<Nazione>IT</Nazione>
+</Sede>
+<IscrizioneREA>
+<Ufficio>VE</Ufficio>
+<NumeroREA>12345</NumeroREA>
+<CapitaleSociale>201000000.00</CapitaleSociale>
+<SocioUnico>SM</SocioUnico>
+<StatoLiquidazione>LN</StatoLiquidazione>
+</IscrizioneREA>
+</CedentePrestatore>
+<CessionarioCommittente>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>01234567890</IdCodice>
+</IdFiscaleIVA>
+<CodiceFiscale>01234567890</CodiceFiscale>
+<Anagrafica>
+<Denominazione>T.S.O. spa</Denominazione>
+</Anagrafica>
+</DatiAnagrafici>
+<Sede>
+<Indirizzo>via dei Matti</Indirizzo>
+<NumeroCivico>0</NumeroCivico>
+<CAP>22222</CAP>
+<Comune>Milano</Comune>
+<Provincia>MI</Provincia>
+<Nazione>IT</Nazione>
+</Sede>
+<Contatti>
+<Telefono>0222222222</Telefono>
+<Email>info@tso.spa</Email>
+</Contatti>
+</CessionarioCommittente>
+</FatturaElettronicaHeader>
+<FatturaElettronicaBody>
+<DatiGenerali>
+<DatiGeneraliDocumento>
+<TipoDocumento>TD24</TipoDocumento>
+<Divisa>EUR</Divisa>
+<Data>2025-05-30</Data>
+<Numero>FT/DIF/VEN/0002443</Numero>
+<ImportoTotaleDocumento>290.48</ImportoTotaleDocumento>
+<Causale>PROTOCOLLO 005120981</Causale>
+</DatiGeneraliDocumento>
+<DatiOrdineAcquisto>
+<RiferimentoNumeroLinea>0002</RiferimentoNumeroLinea>
+<IdDocumento>OC/STD/2509195</IdDocumento>
+<Data>2025-05-05</Data>
+</DatiOrdineAcquisto>
+<DatiOrdineAcquisto>
+<RiferimentoNumeroLinea>0004</RiferimentoNumeroLinea>
+<RiferimentoNumeroLinea>0006</RiferimentoNumeroLinea>
+<IdDocumento>OC/WEB/2510775</IdDocumento>
+<Data>2025-05-22</Data>
+</DatiOrdineAcquisto>
+<DatiDDT>
+<NumeroDDT>BL/VEN/0010212</NumeroDDT>
+<DataDDT>2025-05-05</DataDDT>
+<RiferimentoNumeroLinea>0001</RiferimentoNumeroLinea>
+<RiferimentoNumeroLinea>0002</RiferimentoNumeroLinea>
+</DatiDDT>
+<DatiDDT>
+<NumeroDDT>BL/VEN/0011893</NumeroDDT>
+<DataDDT>2025-05-22</DataDDT>
+<RiferimentoNumeroLinea>0003</RiferimentoNumeroLinea>
+<RiferimentoNumeroLinea>0004</RiferimentoNumeroLinea>
+</DatiDDT>
+<DatiDDT>
+<NumeroDDT>BL/VEN/0011928</NumeroDDT>
+<DataDDT>2025-05-23</DataDDT>
+<RiferimentoNumeroLinea>0005</RiferimentoNumeroLinea>
+<RiferimentoNumeroLinea>0006</RiferimentoNumeroLinea>
+</DatiDDT>
+</DatiGenerali>
+<DatiBeniServizi>
+<DettaglioLinee>
+<NumeroLinea>0001</NumeroLinea>
+<Descrizione>Rif. documento 11aa del  5/05/2025
+</Descrizione>
+<PrezzoUnitario>0.00</PrezzoUnitario>
+<PrezzoTotale>0.00</PrezzoTotale>
+<AliquotaIVA>22.00</AliquotaIVA>
+</DettaglioLinee>
+<DettaglioLinee>
+<NumeroLinea>0002</NumeroLinea>
+<CodiceArticolo>
+<CodiceTipo>ARTCLI</CodiceTipo>
+<CodiceValore>12358701</CodiceValore>
+</CodiceArticolo>
+<Descrizione>CCMT09T308 MP NC3215
+INSERTI IN MD
+</Descrizione>
+<Quantita>10.000</Quantita>
+<UnitaMisura>PZ</UnitaMisura>
+<PrezzoUnitario>6.64000</PrezzoUnitario>
+<PrezzoTotale>66.40</PrezzoTotale>
+<AliquotaIVA>22.00</AliquotaIVA>
+</DettaglioLinee>
+<DettaglioLinee>
+<NumeroLinea>0003</NumeroLinea>
+<Descrizione>Rif. documento 100000a del 22/05/2025
+</Descrizione>
+<PrezzoUnitario>0.00</PrezzoUnitario>
+<PrezzoTotale>0.00</PrezzoTotale>
+<AliquotaIVA>22.00</AliquotaIVA>
+</DettaglioLinee>
+<DettaglioLinee>
+<NumeroLinea>0004</NumeroLinea>
+<CodiceArticolo>
+<CodiceTipo>ARTCLI</CodiceTipo>
+<CodiceValore>12363651</CodiceValore>
+</CodiceArticolo>
+<Descrizione>SNMG120404 MP PC8105
+INSERTI
+</Descrizione>
+<Quantita>10.000</Quantita>
+<UnitaMisura>PZ</UnitaMisura>
+<PrezzoUnitario>8.05000</PrezzoUnitario>
+<PrezzoTotale>80.50</PrezzoTotale>
+<AliquotaIVA>22.00</AliquotaIVA>
+</DettaglioLinee>
+<DettaglioLinee>
+<NumeroLinea>0005</NumeroLinea>
+<Descrizione>Rif. documento 118 
+</Descrizione>
+<PrezzoUnitario>0.00</PrezzoUnitario>
+<PrezzoTotale>0.00</PrezzoTotale>
+<AliquotaIVA>22.00</AliquotaIVA>
+</DettaglioLinee>
+<DettaglioLinee>
+<NumeroLinea>0006</NumeroLinea>
+<CodiceArticolo>
+<CodiceTipo>ARTCLI</CodiceTipo>
+<CodiceValore>12366731</CodiceValore>
+</CodiceArticolo>
+<Descrizione>WNMG080408 HM NC3120
+INSERTI IN MD
+</Descrizione>
+<Quantita>10.000</Quantita>
+<UnitaMisura>PZ</UnitaMisura>
+<PrezzoUnitario>9.12000</PrezzoUnitario>
+<PrezzoTotale>91.20</PrezzoTotale>
+<AliquotaIVA>22.00</AliquotaIVA>
+</DettaglioLinee>
+<DatiRiepilogo>
+<AliquotaIVA>22.00</AliquotaIVA>
+<ImponibileImporto>238.10</ImponibileImporto>
+<Imposta>52.38</Imposta>
+<EsigibilitaIVA>I</EsigibilitaIVA>
+</DatiRiepilogo>
+</DatiBeniServizi>
+<DatiPagamento>
+<CondizioniPagamento>TP02</CondizioniPagamento>
+<DettaglioPagamento>
+<ModalitaPagamento>MP12</ModalitaPagamento>
+<DataScadenzaPagamento>2025-09-10</DataScadenzaPagamento>
+<ImportoPagamento>290.48</ImportoPagamento>
+<CodicePagamento>Riba 90 gg df fm</CodicePagamento>
+</DettaglioPagamento>
+</DatiPagamento>
+</FatturaElettronicaBody>
+</p:FatturaElettronica>

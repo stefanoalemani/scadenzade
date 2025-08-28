@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: scadenzade
+Version: 0.5.0
+Summary: Gestione scadenze fatture elettroniche italiane (ADE)
+Author-email: Stefano Alemani <stefano@alemani.it>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml==6.0.1
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: urwid==3.0.2
+Dynamic: license-file
+
+# scadenzade
+
+**scadenzade** è un'applicazione Python pensata per semplificare la gestione delle scadenze delle fatture elettroniche italiane (ADE), sia lato clienti che fornitori. Il progetto si basa su un'architettura modulare e segue il pattern MVC per garantire flessibilità, estendibilità e chiarezza del codice.
+
+---
+
+## Funzionalità principali
+
+- Lettura automatica di fatture XML (clienti e fornitori)
+- Esportazione dei dati in formato CSV, DBF (da implementare), TXT (parzialmente implementata)
+- Interfaccia grafica testuale basata su `urwid`
+- Organizzazione dei dati per annualità e percorso
+- Possibilità di aggiunta manuale delle scadenze
+
+---
+
+## Struttura del progetto
+
+Il progetto è suddiviso in moduli chiari e indipendenti. Per maggiori dettagli, consulta il file [`PROJECT_STRUCTURE.md`](./PROJECT_STRUCTURE.md).
+
+scadenzade/
+│
+├── config/           # Configurazioni e costanti
+├── control/          # Controller MVC
+├── data_box/         # Dati elaborati e XML originali
+├── models/           # Logica e gestione dati
+└── view/             # Interfaccia utente
+
+---
+
+## Requisiti
+
+- Python 3.10+
+- Librerie: `urwid`, `xml.etree`, `csv`, `os`, `datetime` (e altre standard)
+
+---
+
+## Avvio rapido
+
+git clone https://github.com/stefanoalemani/scadenzade.git
+cd scadenzade
+python scadenzade.py
+
+## Modalità standalone
+
+Alcuni moduli possono essere eseguiti singolarmente per compiti specifici:
+
+models/scadenz.py → Conversione XML → CSV/DBF/TXT
+
+models/add_scad.py → Inserimento scadenze nei file XML
