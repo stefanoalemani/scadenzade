@@ -61,7 +61,7 @@ scadenzade/
 
 ## Avvio rapido
 
-git clone https://github.com/stefanoalemani/scadenzade.git
+git clone https://github.com/stefanoalemani/scadenzade
 cd scadenzade
 python scadenzade.py
 
