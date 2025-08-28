@@ -23,4 +23,4 @@ build-backend = "setuptools.build_meta"
 packages = ["scadenzade"]
 
 [tool.setuptools.package-dir]
-scadenzade = "src/scadenzade"
+scadenzade = "src/"
