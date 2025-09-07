@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+scadenzade/__init__.py
+scadenzade.egg-info/PKG-INFO
+scadenzade.egg-info/SOURCES.txt
+scadenzade.egg-info/dependency_links.txt
+scadenzade.egg-info/entry_points.txt
+scadenzade.egg-info/requires.txt
+scadenzade.egg-info/top_level.txt
+src/scadenzade.py
