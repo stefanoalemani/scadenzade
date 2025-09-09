@@ -42,6 +42,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+    #from models.scadenz import ScadDati
+    #scadenzclass = ScadDati("../src/data_box/xml-clienti/")
+    #print (scadenzclass.sniff_year())
 
 #def get_data():
 #    out_data = data_provider.DataProvider()

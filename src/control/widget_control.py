@@ -16,11 +16,20 @@ class AccountInvoices:
             scadenzclass = ScadDati(start_path[0])
             scadenzclass.read_xml()
             scadenzclass.xml_to_csv(PATH_CSV_SUPPLIERS)
+            years_deadlines_suppliers = scadenzclass.sniff_years() # legge gli anni delle scadenze fatture fornitori
 
             scadenzclass.change_file(start_path[1])
             scadenzclass.read_xml()
             scadenzclass.xml_to_csv(PATH_CSV_CLIENTS)
+            years_deadlines_client = scadenzclass.sniff_years() # legge gli anni delle scadenze fatture clienti
+            
+            # trova dalle fatture gli anni delle scadenze e le mette negli anni disponibili in years.csv
+            merge_years = [years_deadlines_suppliers, years_deadlines_client]
+            flat_list = [year for sublist in merge_years for year in sublist]
+            list_years = sorted(set(flat_list))
+            scadenzclass.write_years_csv(datetime.now().year, list_years)
             return True
+            
         except Exception as e:
             print(f"Errore durante la contabilizzazione: {e}")
             return False

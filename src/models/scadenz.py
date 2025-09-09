@@ -60,7 +60,45 @@ class ScadDati:
             scad_temp = rwxml.read_xml_scad(file_path, manual_scad, data_manual)
             self.scad_all.append(scad_temp)
         return self.scad_all
+
+    def sniff_years(self):
+        """
+        Legge gli anni di scadenza dalle fatture e restituisce una lista ordinata
+        di anni unici presenti.
+        """
+        dati = self.read_xml()
+        anni = {
+            int(valore[:4])
+            for elemento in dati
+            for sotto_dizionario in elemento
+            if isinstance(sotto_dizionario, dict)
+            for chiave, valore in sotto_dizionario.items()
+            if chiave.startswith("DataScadenzaPagamento")
+        }
+        return sorted(anni)
     
+    def write_years_csv(self, year_act, year_avl):
+        rwxml.write_year ({"active": year_act, "available": year_avl})
+    
+    def sniff_years_old(self):
+        """
+        function for read years of deadlines in the invoices. Return a list with
+        years present (grouped).
+        """
+        dati = self.read_xml()
+        # Estrazione delle date di scadenza pagamento
+        date_scadenza = []
+        for elemento in dati:
+            for sotto_dizionario in elemento:
+                if isinstance(sotto_dizionario, dict):
+                    for chiave, valore in sotto_dizionario.items():
+                        if chiave.startswith("DataScadenzaPagamento"):
+                            date_scadenza.append(valore)
+        # Visualizza il risultato
+        # Estrai gli anni e rimuovi i duplicati
+        anni_unici = sorted({int(data[:4]) for data in date_scadenza})
+        return (anni_unici)
+   
     def xml_to_csv(self, filename):
         def format_date(date_str):
             return datetime.strptime(date_str, '%Y-%m-%d')
@@ -194,6 +232,7 @@ class ViewScadGen:
 # standalone usage example:
 #if __name__ == "__main__" :
     #scadenzclass = ScadDati("../data_box/xml_clienti/IT01879020517A2025_a0bHJ.xml")
+    #scadenzclass = ScadDati("../data_box/xml_clienti/")
     #print (scadenzclass.read_xml())
     #print ("OK")
     #scadenzclass = ScadDati("../data_box/xml_fornitori/IT04513160962_2kl7I.xml")
